@@ -129,8 +129,9 @@ CONTACT SECTION
   	margin-bottom: 0.75em;
   }
 
-  	.contact-info li a {
+  #contact .contact-info li a {
   		text-decoration: none;
+      color: black;
   	}
 
 
