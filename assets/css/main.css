@@ -1,0 +1,65 @@
+body {
+  background-color: #183152;
+}
+
+/*******************************************************
+NAV SECTION
+*******************************************************/
+
+  ul li {
+  	font-family: 'Raleway', sans-serif;
+  	font-weight: 600;
+  	list-style: none;
+  }
+
+  a {
+  	text-decoration: none;
+  	color: black;
+  }
+
+/*******************************************************
+OFFERINGS SECTION
+*******************************************************/
+
+  #services h1 {
+  	font-family: 'Raleway', sans-serif;
+  	font-weight: 800;
+  }
+
+/*******************************************************
+FEEDBACK SECTION
+*******************************************************/
+
+  #feedback h1 {
+  	font-family: 'Raleway', sans-serif;
+  	font-weight: 800;
+  }
+
+/*******************************************************
+CONTACT SECTION
+*******************************************************/
+
+  #contact h1 {
+  	font-family: 'Raleway', sans-serif;
+  	font-weight: 800;
+  }
+
+/*******************************************************
+FOOTER SECTION
+*******************************************************/
+
+footer p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
