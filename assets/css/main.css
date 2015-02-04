@@ -1,5 +1,5 @@
 body {
-	font-family: 'EB Garamond', serif;
+	font-family: 'Roboto Slab', serif;
 	font-size: 17px;
 	background-color: #EDE0CD;
 }
@@ -7,6 +7,7 @@ body {
 h1 {
 	font-family: 'Raleway', sans-serif;
   font-weight: 800;
+  color: #fff;
 }
 
 /*******************************************************
@@ -21,41 +22,41 @@ nav {
   top: 0;
   border-bottom: solid 5px #2A7A8C;
 }
-    .logo {
-      float: left;
-      font-family: 'Raleway', sans-serif;
-      text-decoration: none;
-      font-weight: 600;
-      line-height: 4em;
-      padding-left: 25px;
-      color: #fff;
-    }
+  .logo {
+    float: left;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 4em;
+    padding-left: 25px;
+    color: #fff;
+  }
 
-    .nav-links {
-      padding: 0;
-      float: right;
-      margin: 0;
-    }
+  .nav-links {
+    padding: 0;
+    float: right;
+    margin: 0;
+  }
 
-    .nav-links li {
-      font-family: 'Raleway', sans-serif;
-      font-weight: 600;
-      list-style: none;
-      display: inline-block;
-      margin-right: 2em;
-    }
+  .nav-links li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    list-style: none;
+    display: inline-block;
+    margin-right: 2em;
+  }
 
-    .nav-links a {
-    	text-decoration: none;
-    	color: #fff;
-      padding: 0;
-      line-height: 4em;
-    }
+  .nav-links a {
+  	text-decoration: none;
+  	color: #fff;
+    padding: 0;
+    line-height: 4em;
+  }
 
-    .social-icon img {
-      max-width: 25px;
-      vertical-align: middle;
-    }
+  .social-icon img {
+    max-width: 25px;
+    vertical-align: middle;
+  }
 
 
 
@@ -69,6 +70,8 @@ Masthead
 	position: relative;
 	background: url('../img/ocean.jpg') center top no-repeat;
 	background-size: cover;
+  margin-bottom: 0px;
+  opacity: 0.8;
 }
 
 .masthead h1 {
@@ -89,7 +92,7 @@ Outer Container   Catchphrase: Comfort, Heal, Restore;
 *******************************************************/
 
 .outer-container {
-  margin-top: 100px;
+  margin-top: 0px;
   text-align: center;
 }
 
@@ -98,10 +101,55 @@ Outer Container   Catchphrase: Comfort, Heal, Restore;
 Services SECTION
 *******************************************************/
 
-  /*#services {
-  	background-color: #5F939F;
-  }*/
 
+#services {
+  table-layout: auto;
+  /*text-align: center;*/
+  padding: 20px;
+  background-color: #5F939F;
+}
+
+#services .center {
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+#services td {
+  /*width: 600px;
+  /*margin: 40px auto;*/
+  text-align: left;
+  padding: 7px;
+}
+
+/*#services table { 
+  table-layout: auto;
+}*/
+
+  #services h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+#table-head-1 {
+  min-width: 150px;
+  padding-right: 7px;
+  font-weight: 700;
+}
+
+#table-head-2 {
+  max-width: 500px;
+  padding-right: 7px;
+  padding-left: 7px;
+  font-weight: 700;
+}
+
+#table-head-3 {
+  min-width: 150px;
+  padding-left: 3%;
+  font-weight: 700;
+  text-align: left; 
+}
 
 /*******************************************************
 FEEDBACK SECTION
@@ -109,15 +157,14 @@ FEEDBACK SECTION
 
   #feedback {
   	background-color: #1B4E59;
-    form {
-  width: 500px;
-  height: 600px;
-  margin: 10px;
-  padding: 10px;
-  background-color: #78BAA1;
-  border-style: solid;
-  border-color: #feedbb;
-  border-width: 10px;
+    width: 500px;
+    height: 600px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #78BAA1;
+    border-style: solid;
+    border-color: #feedbb;
+    border-width: 10px;
 }
 
 
@@ -183,7 +230,7 @@ textarea#book{
   width: 350px;
   margin-left: auto;
   margin-right: auto;*/
-}
+
 
 
 
@@ -259,6 +306,15 @@ div#input-cc{
   width: 120px;
   font-size: 30px;
 }*/
+
+
+
+  #feedback h1 {
+  	font-family: 'Raleway', sans-serif;
+  	font-weight: 800;
+    background-color: #1B4E59;
+    margin-bottom: 0px;
+    margin-top: 0px;
   }
 
 
@@ -266,9 +322,16 @@ div#input-cc{
 CONTACT SECTION
 *******************************************************/
 
-  /*#contact {
+  #contact {
   	background-color: #82C9D8;
-  }*/
+    padding-bottom: 17px;
+  }
+
+  #contact h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    margin-top: 0px;
+  }
 
   #contact ul {
   	padding-left: 0;
@@ -279,15 +342,15 @@ CONTACT SECTION
   	margin-bottom: 0.75em;
   }
 
-  	.contact-info li a {
+  .contact-info ul li a {
   		text-decoration: none;
   	}
-
 
 
 /*******************************************************
 FOOTER SECTION
 *******************************************************/
+
 
 footer {
 	background-color: #1695A3;
@@ -298,8 +361,9 @@ footer {
 
 footer p {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 600;
+	font-weight: 400;
 	text-align: center;
+  color: #fff;
 }
 
 
