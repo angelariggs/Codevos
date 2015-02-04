@@ -1,5 +1,5 @@
 body {
-	font-family: 'EB Garamond', serif;
+	font-family: 'Roboto Slab', serif;
 	font-size: 17px;
 	background-color: #EDE0CD;
 }
@@ -101,15 +101,55 @@ Outer Container   Catchphrase: Comfort, Heal, Restore;
 Services SECTION
 *******************************************************/
 
-  #services {
-  	background-color: #5F939F;
-  }
+
+#services {
+  table-layout: auto;
+  /*text-align: center;*/
+  padding: 20px;
+  background-color: #5F939F;
+}
+
+#services .center {
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+#services td {
+  /*width: 600px;
+  /*margin: 40px auto;*/
+  text-align: left;
+  padding: 7px;
+}
+
+/*#services table { 
+  table-layout: auto;
+}*/
 
   #services h1 {
     margin-top: 0px;
     margin-bottom: 0px;
   }
 
+#table-head-1 {
+  min-width: 150px;
+  padding-right: 7px;
+  font-weight: 700;
+}
+
+#table-head-2 {
+  max-width: 500px;
+  padding-right: 7px;
+  padding-left: 7px;
+  font-weight: 700;
+}
+
+#table-head-3 {
+  min-width: 150px;
+  padding-left: 3%;
+  font-weight: 700;
+  text-align: left; 
+}
 
 /*******************************************************
 FEEDBACK SECTION
