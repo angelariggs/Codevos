@@ -7,6 +7,7 @@ body {
 h1 {
 	font-family: 'Raleway', sans-serif;
   font-weight: 800;
+  color: #fff;
 }
 
 /*******************************************************
@@ -21,41 +22,41 @@ nav {
   top: 0;
   border-bottom: solid 5px #2A7A8C;
 }
-    .logo {
-      float: left;
-      font-family: 'Raleway', sans-serif;
-      text-decoration: none;
-      font-weight: 600;
-      line-height: 4em;
-      padding-left: 25px;
-      color: #fff;
-    }
+  .logo {
+    float: left;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 4em;
+    padding-left: 25px;
+    color: #fff;
+  }
 
-    .nav-links {
-      padding: 0;
-      float: right;
-      margin: 0;
-    }
+  .nav-links {
+    padding: 0;
+    float: right;
+    margin: 0;
+  }
 
-    .nav-links li {
-      font-family: 'Raleway', sans-serif;
-      font-weight: 600;
-      list-style: none;
-      display: inline-block;
-      margin-right: 2em;
-    }
+  .nav-links li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    list-style: none;
+    display: inline-block;
+    margin-right: 2em;
+  }
 
-    .nav-links a {
-    	text-decoration: none;
-    	color: #fff;
-      padding: 0;
-      line-height: 4em;
-    }
+  .nav-links a {
+  	text-decoration: none;
+  	color: #fff;
+    padding: 0;
+    line-height: 4em;
+  }
 
-    .social-icon img {
-      max-width: 25px;
-      vertical-align: middle;
-    }
+  .social-icon img {
+    max-width: 25px;
+    vertical-align: middle;
+  }
 
 
 
@@ -69,6 +70,8 @@ Masthead
 	position: relative;
 	background: url('../img/ocean.jpg') center top no-repeat;
 	background-size: cover;
+  margin-bottom: 0px;
+  opacity: 0.8;
 }
 
 .masthead h1 {
@@ -89,7 +92,7 @@ Outer Container   Catchphrase: Comfort, Heal, Restore;
 *******************************************************/
 
 .outer-container {
-  margin-top: 100px;
+  margin-top: 0px;
   text-align: center;
 }
 
@@ -98,13 +101,12 @@ Outer Container   Catchphrase: Comfort, Heal, Restore;
 Services SECTION
 *******************************************************/
 
-  /*#services {
-  	background-color: #5F939F;
-  }*/
+
 #services {
   table-layout: auto;
   /*text-align: center;*/
   padding: 20px;
+  background-color: #5F939F;
 }
 
 #services .center {
@@ -123,6 +125,11 @@ Services SECTION
 /*#services table { 
   table-layout: auto;
 }*/
+
+  #services h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
 
 #table-head-1 {
   min-width: 150px;
@@ -148,18 +155,31 @@ Services SECTION
 FEEDBACK SECTION
 *******************************************************/
 
-  /*#feedback {
-  	background-color: #1B4E59;
-  }*/
+
+  #feedback h1 {
+  	font-family: 'Raleway', sans-serif;
+  	font-weight: 800;
+    background-color: #1B4E59;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
 
 
 /*******************************************************
 CONTACT SECTION
 *******************************************************/
 
-  /*#contact {
+  #contact {
   	background-color: #82C9D8;
-  }*/
+    padding-bottom: 17px;
+  }
+
+  #contact h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    margin-top: 0px;
+  }
 
   #contact ul {
   	padding-left: 0;
@@ -170,15 +190,15 @@ CONTACT SECTION
   	margin-bottom: 0.75em;
   }
 
-  	.contact-info li a {
+  .contact-info ul li a {
   		text-decoration: none;
   	}
-
 
 
 /*******************************************************
 FOOTER SECTION
 *******************************************************/
+
 
 footer {
 	background-color: #1695A3;
@@ -189,8 +209,9 @@ footer {
 
 footer p {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 600;
+	font-weight: 400;
 	text-align: center;
+  color: #fff;
 }
 
 
