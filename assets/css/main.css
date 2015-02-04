@@ -107,9 +107,159 @@ Services SECTION
 FEEDBACK SECTION
 *******************************************************/
 
-  /*#feedback {
+  #feedback {
   	background-color: #1B4E59;
-  }*/
+    form {
+  width: 500px;
+  height: 600px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #78BAA1;
+  border-style: solid;
+  border-color: #feedbb;
+  border-width: 10px;
+}
+
+
+div.first-field {
+  width: 246px;
+  margin: 2px;
+}
+
+div.second-field {
+  width: 246px;
+  v
+}
+div.third-field {
+  width: 246px;
+  margin: 2px;
+}
+li.checkbox-positive-exp {
+  width: 246px;
+}
+
+.first-question {
+  width: 246px;
+  margin: 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+div.container {
+  background-color: #aaffcc;
+  width: 450px;
+  height: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+ul {
+  list-style: none;
+}
+span#checkbox-positive {
+  margin-left: auto;
+  margin-right: auto;
+}
+textarea#positive {
+  height: 90px;
+  width: 242px;
+}
+textarea#recommend{
+  height: 90px;
+  width: 242px;
+}
+textarea#book{
+  height: 90px;
+  width: 242px;
+}
+
+
+
+.container{
+  background-color: blue;
+  margin: auto;
+  padding-bottom: auto;
+}
+
+/*.first-question {
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;*/
+}
+
+
+
+
+/*
+}
+.name-and-input{
+  width: 156px;
+  margin-right: auto;
+  margin-left: auto;
+}
+textarea#input-name {
+  width: 156px; 
+}
+div#input-name {
+  width: 156px;
+  margin: 2px auto 2px auto;
+}
+.phoneNumber-and-input{
+  width: 156px;
+  margin-right: auto;
+  margin-left: auto;
+}
+textarea#number {
+  width: 156px;
+}
+div#input-number {
+  width: 156px;
+  margin: 2px auto 2px auto;
+}
+.email-and-input{
+  width: 156px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.textarea#email {
+  width: 156px;
+}
+div#input-email{
+  width: 156px;
+  margin: 2px auto 2px auto;
+}
+textarea#phoneNumber {
+  margin: 2px auto 2px auto;
+}
+div#phoneNumber{
+  width: 156px;
+}
+textarea#email {
+  margin: 2px auto 2px auto;
+}
+div#input-email{
+  margin: 2px auto 2px auto;
+}
+
+.cc-and-input{
+  width: 156px;
+  margin-right: auto;
+  margin-left: auto;
+}
+textarea#cc{
+  margin: 2px auto 2px auto;
+}
+div#input-cc{
+  margin: 2px auto 2px auto;
+}
+.label{
+  margin-right:;
+}*/
+
+
+/*input[type=submit] {
+  width: 120px;
+  font-size: 30px;
+}*/
+  }
 
 
 /*******************************************************
