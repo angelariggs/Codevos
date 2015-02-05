@@ -71,7 +71,7 @@ Masthead
 	background: url('../img/ocean.jpg') center top no-repeat;
 	background-size: cover;
   margin-bottom: 0px;
-  opacity: 0.8;
+  opacity: 0.75;
 }
 
 .masthead h1 {
@@ -155,32 +155,53 @@ Services SECTION
 FEEDBACK SECTION
 *******************************************************/
 
-  #feedback {
-  	background-color: #1B4E59;
-    width: 500px;
-    height: 600px;
-    margin: 10px;
-    padding: 10px;
-    background-color: #78BAA1;
-    border-style: solid;
-    border-color: #feedbb;
-    border-width: 10px;
+#feedback {
+	background-color: #1B4E59;
+  /*width: 500px;*/
+  /*height: 600px;*/
+  /*margin: 10px;*/
+  width: 100%;
+  padding: 10px;
+  background-color: #1B4E59;
+  /*border-style: solid;
+  border-color: #feedbb;
+  border-width: 10px;*/
+}
+
+#feedback h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  background-color: #1B4E59;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+form .feedback-form {
+  width: 100px;
+  display: inline-block;
+  margin: auto;
 }
 
 
-div.first-field {
+/*div.first-field {
   width: 246px;
-  margin: 2px;
+  margin: 0 auto;
 }
 
 div.second-field {
   width: 246px;
-  v
 }
 div.third-field {
   width: 246px;
   margin: 2px;
+}*/
+
+.field {
+  max-width: 600px;
+  margin: 0 auto;
 }
+
 li.checkbox-positive-exp {
   width: 246px;
 }
@@ -192,7 +213,8 @@ li.checkbox-positive-exp {
   margin-left: auto;
 }
 div.container {
-  background-color: #aaffcc;
+  /*background-color: #aaffcc;*/
+  background-color: #3291A5;
   width: 450px;
   height: 500px;
   margin-right: auto;
@@ -220,7 +242,7 @@ textarea#book{
 
 
 
-.container{
+.container {
   background-color: blue;
   margin: auto;
   padding-bottom: auto;
@@ -309,43 +331,47 @@ div#input-cc{
 
 
 
-  #feedback h1 {
-  	font-family: 'Raleway', sans-serif;
-  	font-weight: 800;
-    background-color: #1B4E59;
-    margin-bottom: 0px;
-    margin-top: 0px;
-  }
+
 
 
 /*******************************************************
 CONTACT SECTION
 *******************************************************/
 
-  #contact {
-  	background-color: #82C9D8;
-    padding-bottom: 17px;
-  }
+#contact {
+	background-color: #82C9D8;
+  padding-bottom: 17px;
+}
 
-  #contact h1 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    margin-top: 0px;
-  }
+#contact h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  margin-top: 0px;
+  text-align: center;
+  padding-top: 10px;
+}
 
-  #contact ul {
-  	padding-left: 0;
-  }
+#contact ul {
+	padding-left: 0;
+}
 
-  #contact ul li {
-  	list-style: none;
-  	margin-bottom: 0.75em;
-  }
+#contact ul li {
+	list-style: none;
+	margin-bottom: 0.75em;
+  text-align: center;
+}
 
-  .contact-info a {
-  		text-decoration: none;
-      color: black;
-  }
+.contact-info a {
+	text-decoration: none;
+  color: black;
+}
+
+.google-map {
+  text-align: center;
+  width: 100%;
+  vertical-align: middle;
+  height: 100%;
+}
 
 
 /*******************************************************
@@ -354,16 +380,16 @@ FOOTER SECTION
 
 
 footer {
-	background-color: #1695A3;
-	padding: 7px 0;
-	vertical-align: middle;
-	border-top: solid 5px #2A7A8C;
+  background-color: #1695A3;
+  padding: 7px 0;
+  vertical-align: middle;
+  border-top: solid 5px #2A7A8C;
 }
 
 footer p {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 400;
-	text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  text-align: center;
   color: #fff;
 }
 
