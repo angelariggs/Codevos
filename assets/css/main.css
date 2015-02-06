@@ -100,15 +100,12 @@ Outer Container   Catchphrase: Comfort, Heal, Restore;
 /*******************************************************
 Services SECTION
 *******************************************************/
-
-
 #services {
   table-layout: auto;
   /*text-align: center;*/
   padding: 20px;
   background-color: #5F939F;
 }
-
 #services .center {
   margin: 0 auto;
   border-collapse: separate;
@@ -121,11 +118,6 @@ Services SECTION
   text-align: left;
   padding: 7px;
 }
-
-/*#services table { 
-  table-layout: auto;
-}*/
-
   #services h1 {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -155,18 +147,6 @@ Services SECTION
 FEEDBACK SECTION
 *******************************************************/
 
-#feedback {
-	background-color: #1B4E59;
-  /*width: 500px;*/
-  /*height: 600px;*/
-  /*margin: 10px;*/
-  width: 100%;
-  padding: 10px;
-  background-color: #1B4E59;
-  border-style: solid;
-  border-color: #feedbb;
-  border-width: 10px;
-}
 
 #feedback h1 {
   font-family: 'Raleway', sans-serif;
@@ -174,28 +154,64 @@ FEEDBACK SECTION
   background-color: #1B4E59;
   margin-bottom: 0px;
   margin-top: 0px;
-  text-align: center;
-  padding-bottom: 10px;
 }
 
 form .feedback-form {
   width: 100px;
   display: inline-block;
   margin: auto;
+
 }
 
+#feedback {
+  background-color: #5F939F;
+    width: 500px;
+    height: 600px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: #5F939F;
+    border-style: solid;
+    border-color: #feedbb;
+    border-width: 10px;
+}
 
+form {
+  background-color: #82C9D8;
+  margin: auto;
+  height: 555px;
+}
+.container{
+  background-color: #82C9D8;
+  margin: auto auto 43px auto;
+  padding-bottom: auto;
+}
+/*div.container {
+  background-color: #82C9D8;
+  width: 450px;
+  height: 550px;
+  margin-right: auto;
+  margin-left: auto;
+}*/
 div.first-field {
   width: 246px;
-  margin: 0 auto;
+  margin: 2px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div.second-field {
   width: 246px;
+  margin: 2px;
+  margin-left: auto;
+  margin-right: auto;
 }
 div.third-field {
   width: 246px;
   margin: 2px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .field {
@@ -203,19 +219,20 @@ div.third-field {
   margin: 0 auto;
 }
 
-li.checkbox-positive-exp {
+div#checkbox-positive-exp {
   width: 246px;
+  margin: 2px auto 2px auto;
+  padding: 4px;
 }
-
 .first-question {
   width: 246px;
   margin: 5px;
   margin-right: auto;
   margin-left: auto;
 }
+
 div.container {
-  /*background-color: #aaffcc;*/
-  background-color: #3291A5;
+  background-color: #82C9D8;
   width: 450px;
   height: 500px;
   margin-right: auto;
@@ -224,6 +241,7 @@ div.container {
 ul {
   list-style: none;
 }
+
 span#checkbox-positive {
   margin-left: auto;
   margin-right: auto;
@@ -231,15 +249,19 @@ span#checkbox-positive {
 textarea#positive {
   height: 90px;
   width: 242px;
+  margin: 3px;
 }
 textarea#recommend{
   height: 90px;
   width: 242px;
+  margin: 3px;
 }
 textarea#book{
   height: 90px;
   width: 242px;
+  margin: 3px;
 }
+<<<<<<< HEAD
 
 
 
@@ -249,90 +271,19 @@ textarea#book{
   padding-bottom: auto;
 }
 
-/*.first-question {
-  width: 350px;
-  margin-left: auto;
-  margin-right: auto;*/
 
-
-
-
-
-/*
+  #feedback h1 {
+  	font-family: 'Raleway', sans-serif;
+  	font-weight: 800;
+    background-color: #1B4E59;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+#submit-button{
+  width: 53px;
+  height: 21px;
+  margin: -40px auto 5px auto;
 }
-.name-and-input{
-  width: 156px;
-  margin-right: auto;
-  margin-left: auto;
-}
-textarea#input-name {
-  width: 156px; 
-}
-div#input-name {
-  width: 156px;
-  margin: 2px auto 2px auto;
-}
-.phoneNumber-and-input{
-  width: 156px;
-  margin-right: auto;
-  margin-left: auto;
-}
-textarea#number {
-  width: 156px;
-}
-div#input-number {
-  width: 156px;
-  margin: 2px auto 2px auto;
-}
-.email-and-input{
-  width: 156px;
-  margin-right: auto;
-  margin-left: auto;
-}
-.textarea#email {
-  width: 156px;
-}
-div#input-email{
-  width: 156px;
-  margin: 2px auto 2px auto;
-}
-textarea#phoneNumber {
-  margin: 2px auto 2px auto;
-}
-div#phoneNumber{
-  width: 156px;
-}
-textarea#email {
-  margin: 2px auto 2px auto;
-}
-div#input-email{
-  margin: 2px auto 2px auto;
-}
-
-.cc-and-input{
-  width: 156px;
-  margin-right: auto;
-  margin-left: auto;
-}
-textarea#cc{
-  margin: 2px auto 2px auto;
-}
-div#input-cc{
-  margin: 2px auto 2px auto;
-}
-.label{
-  margin-right:;
-}*/
-
-
-/*input[type=submit] {
-  width: 120px;
-  font-size: 30px;
-}*/
-
-
-
-
 
 
 /*******************************************************
