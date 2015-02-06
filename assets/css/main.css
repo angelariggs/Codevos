@@ -175,12 +175,19 @@ FEEDBACK SECTION
   margin-bottom: 0px;
   margin-top: 0px;
   text-align: center;
+  padding-bottom: 10px;
 }
 
-form .feedback-form {
+/*form .feedback-form {
   width: 100px;
   display: inline-block;
   margin: auto;
+}*/
+
+#wufoo-zsiodz2105wimm {
+  width: 500px;
+  margin: auto;
+  display: inline-block;
 }
 
 
