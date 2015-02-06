@@ -163,9 +163,9 @@ FEEDBACK SECTION
   width: 100%;
   padding: 10px;
   background-color: #1B4E59;
-  /*border-style: solid;
+  border-style: solid;
   border-color: #feedbb;
-  border-width: 10px;*/
+  border-width: 10px;
 }
 
 #feedback h1 {
@@ -178,20 +178,14 @@ FEEDBACK SECTION
   padding-bottom: 10px;
 }
 
-/*form .feedback-form {
+form .feedback-form {
   width: 100px;
   display: inline-block;
   margin: auto;
-}*/
-
-#wufoo-zsiodz2105wimm {
-  width: 500px;
-  margin: auto;
-  display: inline-block;
 }
 
 
-/*div.first-field {
+div.first-field {
   width: 246px;
   margin: 0 auto;
 }
@@ -202,7 +196,7 @@ div.second-field {
 div.third-field {
   width: 246px;
   margin: 2px;
-}*/
+}
 
 .field {
   max-width: 600px;
