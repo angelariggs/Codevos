@@ -1,7 +1,7 @@
 body {
 	font-family: 'Roboto Slab', serif;
 	font-size: 17px;
-	background-color: #EDE0CD;
+	background-color: #1B4E59;
 }
 
 h1 {
@@ -165,16 +165,16 @@ form .feedback-form {
 
 #feedback {
   background-color: #5F939F;
-    width: 500px;
-    height: 600px;
-    margin: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    background-color: #5F939F;
-    border-style: solid;
-    border-color: #feedbb;
-    border-width: 10px;
+  width: 500px;
+  height: 600px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  background-color: #5F939F;
+  border-style: solid;
+  border-color: #feedbb;
+  border-width: 10px;
 }
 
 form {
@@ -237,6 +237,7 @@ div.container {
   height: 500px;
   margin-right: auto;
   margin-left: auto;
+
 }
 ul {
   list-style: none;
